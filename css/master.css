@@ -1,9 +1,9 @@
 *{
     text-transform: capitalize;
-    font-family: "Work Sans", sans-serif;
     margin: 0px;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 :root{
     --myFirstColor:#f6f6f6;
@@ -12,6 +12,9 @@
 }
 i{
     color: var(--mySecondColor);
+}
+h1{
+    font-weight: 700;
 }
 /* Start Heading */
 .container{
@@ -410,6 +413,7 @@ footer{
 /* End Footer */
 
 .section-top{
+    padding: 30px 0px;
     width: 100%;
     text-align: center;
 }
